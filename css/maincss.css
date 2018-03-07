@@ -1,0 +1,158 @@
+@font-face
+ { 
+ 	font-family:Adana script ;
+ 	src: url('fonts/adana_script.ttf'); 
+font-family: Bikham Cyr Script, arial; 
+ 	src: url('fonts/bikham-cyr-scriptt.ttf'); 
+
+} 
+header 
+{
+	font-family:Brush Script MT, Brush Script Std;
+	font-style: normal;
+	color:#7617B0;
+	background-color:#B74FEE;
+	text-align: center;
+	}
+	body{
+		font-family: Verdana, sans-serif;
+		font-style: normal;	
+		background:#A898B3;
+					}
+table
+{
+border-collapse: collapse;
+	width="100%;
+	}
+table td
+{
+border: 2px solid purple ;
+color:#713371;
+	
+}
+footer
+{
+	font-family:Brush Script MT, Brush Script Std;
+	font-style: bold;
+	font-size: 20px; 
+	text-align: center;
+	color:#2FA013;
+	background-color: lightblue;
+	border-top: 5px dotted;
+}
+.sidebar
+{
+font-size: 20px;
+background: #AE6BAB;
+}
+a
+{
+text-decoration: none;
+color: purple
+
+}
+a:visited
+{
+text-decoration: none;
+}
+a[href*="myarticules"] {
+        color: #08fd8e;
+}
+#backmenu
+{
+	background-color:#BB7291;
+}
+
+#backmenu ul 
+{
+	font-size: 30px;
+	font-style: bold;
+}
+
+#backmenu li:nth-child(odd)
+{
+	background: #7D5969;
+}
+
+h2
+{
+color: green;
+text-align: center;
+}
+ 
+#cadfech 
+{
+	text-align: center;
+}
+#cadfech p
+{
+font-size:25 px;
+font-style: italic;
+color: red;
+}
+#cadfech ul
+{
+	list-style-position: inside;
+	list-style-type: circle;
+}
+#cadfech ul .type
+{
+	list-style-position: inside;
+	list-style-type: square;
+	color: yellow;
+}
+  .images td
+{
+	border-style: none;
+     }
+ .articules 
+ {
+    
+    font-size: 22px;
+    font-style: italic;
+    color: #7d5969;
+   
+}
+.artpage {
+	font-size: 20px;
+    background-color: #99A1B2;
+ 
+}
+.artpage p 
+{
+	font-family: Adana script;
+	font-size: 20px;
+	font-style: oblique;
+	text-indent: 10%;
+     color: #203055;
+	
+}
+.artpage p:first-letter 
+{
+font-size: 1.2em;
+font-weight: bold;
+}
+.artpage h2
+{
+	font-family:Bikham Cyr Script, arial; 
+    text-shadow: 1px 1px 2px #F33030;
+	color: #B53030;
+}
+#comments1, #comments2
+{
+	font-family: Adana script;
+	font-size: 15px;
+	  text-align:right;
+	  line-height:10px;
+	  background: #7799DF;
+	  color: #203055;
+l
+
+}
+#comments1 blockquote, #comments2 blockquote
+{
+  font-size: 18px;
+  font-style:italic;
+  text-align:left;
+
+}

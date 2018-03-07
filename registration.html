@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta name= "keywords" content="всяко,регистрация"> <!-- ДОБАВИТЬ КЛЮЧЧЕВОЕ СЛОВО-->
+	<meta charset="utf-8"> 
+	<title> Регистрация </title>
+  <link rel="stylesheet" href="css/maincss.css">
+</head>
+<body>
+    <table >
+   <tr> <td colspan="6"> <header> <h1> Регистрация </h1>  </header></td> </tr> 
+	<tr class="sidebar">
+        <td width="20%" align="center"><a href="index.html" > Главная </td>
+        <td width="20%" align="center"><a href="articules.html">Статьи</a></td>
+        <td width="20%" align="center"><a href="catalog.html">Каталог</a></td>
+        <td width="20%" align="center"><a href="imagesg.html">Галерея</a></td>
+        <td width="20%" align="center"><a href="registration.html">Регистрация</a></td>
+        <td width="20%" align="center"><a href="contacts.html">Контакты</a></td>
+    </tr>
+		<tr ><!--основное меню -->
+        <td id="backmenu"> 
+            <ul type="none">
+                <li> <a href="index.html"> Главная</a></li>
+                <li><a href="articules.html">Статьи </a></li>
+                <li><a href="catalog.html">Каталог </a></li>
+                <li><a href="imagesg.html">Галерея изображений</a></li>
+                 <li><a href="contacts.html">Контанты</a></li>
+            </ul>
+            </td> 
+          
+               <td colspan="5"> 
+                <form method="post"><!--форма-->
+              
+             <fieldset > <legend><b>Ф.И.О</b></legend> 
+            <p><label for="surname">Фамилия</label> </p>
+            <input type="text" name="familia" id="surmame" placeholder="введите свою фамилию" size="26"> </br>
+            <p><label for="name">Имя</label> </p>
+            <input type="text" name="imia" id="name" placeholder="введите своё имя" size="26"> </br>
+            <p><label for="lastname">Oтчество</label> </p>
+            <input type="text" name="otchestvo" id="lastname" placeholder="введите своё отчество" size="26"> </br></br>
+            
+            </fieldset>
+            
+     
+            <fieldset> <legend><b>Фото</b></legend>
+            <p><label for="photo">Загрузите фото</label></p> 
+            <input type="file" name="fotka" id="photo" value="Загрузить"> </br>
+             </fieldset> 
+            
+             <fieldset> <legend><b>Данные для  регитсрации  в сети</b></legend>
+                <p><label for="mail">Ваш почтовый ящик</label></p> 
+                <input type="email" name="pochta" placeholder="ivanov@mail.ru" size="20"> </br>
+
+                <p><label for="ypassowrd">Пароль</label></p> 
+                <input type="passowrd" name="parol" id="ypassowrd" size="20" placeholder="введите пароль"> </br>
+                <p><label for="link">Сайт</label></p>
+                <input type="url" name="linka" id="link" placeholder="http://" size="20"></br> </br>
+                
+               <fieldset><legend><b>Заполнить анкету</b></legend>
+           <p>Выберите пол </p>   
+          <p>  <input type="radio" name="sex" value="male"> муж </p>
+           <p><input  type="radio" name="sex" value="female"> жен</p> </br>
+             выберите дату рождения
+             <input type="date"> </br>
+              </fieldset>
+           
+              <fieldset> <legend><b>Ваш любимый цвет</b></legend>
+                <p><input type="checkbox" name="a" value="red"> красный</p>
+                <p><input type="checkbox" name="a" value="green" checked> зеленный</p>
+                 <p><input type="checkbox" name="a" value="blue" > синий</p>
+                 </fieldset>   
+                 
+             
+              <fieldset> <legend><b>Нравится ли сайт?</b></legend>
+                <p><input name="dzen" type="radio" value="yes"> да</p>
+                  <p><input name="dzen" type="radio" value="no"> неее</p>
+                   <p><input name="dzen" type="radio" value="dunno" checked>хз</p>
+</fieldset>
+            
+              <fieldset> <legend><b>немного о себе</b></legend>
+             <textarea rows="10" cols="45" name="text" >                 
+             </textarea>
+             
+</fieldset>
+ <fieldset> <legend><b>Выберите любимую пару года</b></legend>
+             <select size="4">
+               <option autofocus>зима</option>
+  <option>весна</option>
+    <option>осень</option>
+  <option>лето</option>
+             </select>
+</fieldset>
+
+ 
+     <fieldset>
+         <input type="button" name="отправка" value="Отправить форму">
+          <input type="reset" name="сбросить" value="сбросить
+           форму">
+     </fieldset>
+
+    </form>
+      </td>          
+           </tr>
+
+		
+	 <tr>
+         <td colspan="6"> <footer> <hr> <p>&copy;&nbsp;&nbsp; privacy JulikGhost</p> </footer>
+     
+    </tr> <!--Подвал.--> 
+    </table>   
+	</body>
+</html>
